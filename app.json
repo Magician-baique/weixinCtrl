@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "miniprogram/pages/index/index",
+    "miniprogram/pages/luntan/luntan",
+    "miniprogram/pages/logs/logs",
+    "miniprogram/pages/fenlei/fenlei",
+    "miniprogram/pages/xiaoxi/xiaoxi",
+    "miniprogram/pages/Bianxie/Bianxie"
+  ],
+  "window": {
+    "backgroundColor": "#ffc0cb",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fffff0",
+    "navigationBarTitleText": "灯点月下",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "pageOrientation": "auto",
+    "cloud": true
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor": "#000",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "position": "bottom",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "miniprogram/pages/index/index",
+        "iconPath": "./image/home.png",
+        "selectedIconPath": "./image/home-fill.png"
+      },
+      {
+        "text": "分类",
+        "pagePath": "miniprogram/pages/fenlei/fenlei",
+        "iconPath": "./image/all.png",
+        "selectedIconPath": "./image/all-fill.png"
+      },
+      {
+        "text": "论坛",
+        "pagePath": "miniprogram/pages/luntan/luntan",
+        "iconPath": "./image/suggest.png",
+        "selectedIconPath": "./image/suggest-fill.png"
+      },
+      {
+        "text": "消息",
+        "pagePath": "miniprogram/pages/xiaoxi/xiaoxi",
+        "iconPath": "./image/message center.png",
+        "selectedIconPath": "./image/message center-fill.png"
+      }
+    ]
+  }
+}

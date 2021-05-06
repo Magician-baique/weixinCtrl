@@ -1,0 +1,150 @@
+/**index.wxss**/
+.userinfo {
+  width: auto;
+  height: auto;
+}
+.userinfotc{
+  display: flex;
+}
+.xinInput{
+  width:100%;
+  margin-top:20rpx
+}
+.xinxiInput{
+  width:80%;
+  height:100rpx;
+   box-shadow: #ccc 0px 5px 5px;
+   display: flex;
+   margin:0 auto;
+}
+.userid{
+  margin-top: 10rpx;
+  display:flex;
+  flex-direction: column;
+}
+.dltanchuang{
+  position: fixed;
+  z-index:1;
+  top:0
+}
+.tcfont{
+  height:40rpx;
+}
+.dingbu {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fffff0;
+  position: fixed;
+  z-index:1;
+  transition: 0.5s;
+}
+
+.userinfo-avatar {
+  width: 80rpx;
+  height: 80rpx;
+  margin: 10rpx;
+  border-radius: 50%;
+}
+.shoucang{
+  width:100%;
+  margin-top:30rpx;
+}
+.shoucangMessage{
+  width:40%;
+  display:flex;
+  justify-content:center;
+  margin:0 auto;
+}
+.shoucangValue{
+  width:100%;
+  display: flex;
+  justify-content: space-around;
+}
+.fenleiValue{
+  width:40%;
+  height:150rpx;
+  border-radius: 20px;
+  box-shadow: #ccc 0px 5px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zujiValue{
+  width:20%;
+  height:100rpx;
+  border-radius: 20px;
+  box-shadow: #ccc 0px 5px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.guazhuValue{
+  width:20%;
+  height:100rpx;
+  border-radius: 50%;
+  box-shadow: #ccc 0px 5px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.souInputStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 420rpx;
+  height: 60rpx;
+  border: 5rpx #000 solid;
+  border-radius: 20px;
+}
+.btnImgGps {
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.lunboView {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.lunboImage {
+  display: inline-block;
+  width: 90%;
+  height: 250rpx;
+}
+
+.lunboView2 {
+  border-radius: 15px;
+  justify-content: center;
+}
+
+.lunboDiv {
+  width: 30%;
+  text-align: center;
+  font-size: 25rpx;
+  line-height: 40rpx;
+  overflow: hidden;
+}
+.kuaiJieFont{
+  width:100%;
+  display: inline-block;
+  margin:20rpx 0;
+  text-align: center;
+}
+
+.lunboView3 {
+  display: flex;
+  justify-content: space-around;
+}
+.lunboImageJx{
+width: 95%;
+height:600rpx;
+}
+.lunboDivJx{
+  width: 40%;
+  text-align: center;
+  font-size: 25rpx;
+  line-height: 40rpx;
+}

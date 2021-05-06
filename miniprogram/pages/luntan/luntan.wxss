@@ -1,0 +1,74 @@
+/* pages/luntan/luntan.wxss */
+.userinfo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+}
+.userinfo-avatar{
+  width:15%;
+  height:110rpx;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.userinfoImage{
+  width:12%;
+  height:84rpx;
+  border-radius: 30%;
+  margin: 0 auto;
+}
+.tcfont{
+  text-align: center;
+}
+.fiedpostion{
+  position: fixed;
+  right: 0;
+}
+.bianjiBtn{
+  width:100rpx;
+  height: 100rpx;
+  background-color: #1296db;
+  border-radius: 50%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.bianjiBtn image{
+  width:60%;
+  height: 60rpx;
+  text-align: center;
+  margin:0 auto;
+}
+.updateLunTanTxt{
+  width:95%;
+  margin:20rpx 20rpx;
+}
+.updateLunTanTxt2{
+  display: inline-block;
+  width:100%;
+  text-align: center;
+  font-size:25rpx;
+  margin:20prx;
+}
+.updateLunTanImage{
+  width:100%;
+  height:200rpx;
+  display: flex;
+  justify-content: center;
+}
+.updateLunTanImage2{
+  width:25%;
+  height:200rpx;
+  display:inline-block;
+}
+.infoView{
+  position:relative;
+  left:390rpx;
+}
+.infoImage{
+  width:8%;
+  height:53rpx;
+  margin:20rpx 30rpx;
+}

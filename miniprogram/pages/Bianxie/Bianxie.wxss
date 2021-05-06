@@ -1,0 +1,25 @@
+/* miniprogram/pages/Bianxie/Bianxie.wxss */
+.shuruDiv{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  margin-top:10rpx;
+}
+.shuru{
+  width:95%;
+  height:200rpx;
+  overflow: auto;
+  justify-content: center;
+}
+.textareaStyle{
+  width:100%;
+  height:100%;
+}
+.guanbiiocn{
+  width:40rpx;
+  height:40rpx;
+  position:relative;
+  right: 0;
+  top: 0;
+}
+/* 。。。。。。。。。。。。。。。。。。 */

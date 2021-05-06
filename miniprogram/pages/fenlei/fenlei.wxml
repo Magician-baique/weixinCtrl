@@ -1,0 +1,100 @@
+		<!-- 搜索 -->
+		<view class="souInputStyle">
+			<image src="../../../image/search.png" class="btnImgGps"></image>
+			<input type="text" class="textInput" placeholder="输入点内容吧" placeholder-class="phClss"></input>
+			<button size="mini" style="font-size:20rpx;border:none" plain="true">搜索</button>
+		</view>
+
+		<!-- 关注区 -->
+		<view class="GuanZhu">
+      <view style="display:flex;justify-content: center;padding-bottom:20rpx"> 
+        <text style="font-size:20rpx">关注</text>
+      </view>
+			<view class="GuanZhuList">
+					<view wx:for="{{FenLei}}" class="GuanZhuListForm" style="{{CtrlList1}}">
+						<view class="imageLs"><image src="{{item.image}}" class="imageUin"></image></view>
+						<view><text class="GuanZhuName">{{item.name}}</text></view>
+				</view>
+				<view class="ShouQi">
+					<image src="cloud://yuexia.7975-yuexia-1302601811/收起.png" class="ShouQiImage" bindtap="GuanZhuShouQi" style="{{ShouQi}}"></image>
+					<text style="font-size:27rpx;text-arign:center;">{{ShouQiName}}</text>
+				</view>
+			</view>
+
+
+			<!-- 关注区展开 -->
+			<view class="GuanZhuZhanKai" style="{{CtrlList2}}">
+				<view class="GuanZhuZhanKaiList" wx:for="{{FenLei}}">
+					<view>
+						<image src="{{item.image}}" class="imageUin"></image>
+					</view>
+					<view class="GuanZhuZhanKaiFont">
+						<text class="GuanZhuName">{{item.name}}</text>
+						<text class="GuanZhuJianJie">{{item.JianJie}}</text>
+					</view>
+				</view>
+			</view>
+		</view>
+
+    <!-- 商业区 -->
+    	<view class="GuanZhu">
+      <view style="display:flex;justify-content: center;padding-bottom:20rpx"> 
+        <text style="font-size:20rpx">商业区</text>
+      </view>
+			<view class="GuanZhuList">
+					<view wx:for="{{ShangYeQu}}" wx:key="index" class="GuanZhuListForm" style="{{CtrlList1_1}}">
+						<view class="imageLs"><image src="{{item.image}}" class="imageUin"></image></view>
+						<view><text class="GuanZhuName">{{item.name}}</text></view>
+				</view>
+				<view class="ShouQi">
+					<image src="cloud://yuexia.7975-yuexia-1302601811/收起.png" class="ShouQiImage" bindtap="GuanZhuShouQi1" style="{{ShouQi1}}"></image>
+					<text style="font-size:27rpx;text-arign:center;">{{ShouQiName1}}</text>
+				</view>
+			</view>
+
+
+			<!-- 商业区展开 -->
+			<view class="GuanZhuZhanKai" style="{{CtrlList1_2}}">
+				<view class="GuanZhuZhanKaiList" wx:for="{{ShangYeQu}}">
+					<view>
+						<image src="{{item.image}}" class="imageUin"></image>
+					</view>
+					<view class="GuanZhuZhanKaiFont">
+						<text class="GuanZhuName">{{item.name}}</text>
+						<text class="GuanZhuJianJie">{{item.JianJie}}</text>
+					</view>
+				</view>
+			</view>
+		</view>
+
+
+        <!-- 生活区 -->
+    	<view class="GuanZhu">
+      <view style="display:flex;justify-content: center;padding-bottom:20rpx"> 
+        <text style="font-size:20rpx">生活区</text>
+      </view>
+			<view class="GuanZhuList">
+					<view wx:for="{{ShengHuoQu}}" wx:key="index" class="GuanZhuListForm" style="{{CtrlList2_1}}">
+						<view class="imageLs"><image src="{{item.image}}" class="imageUin"></image></view>
+						<view><text class="GuanZhuName">{{item.name}}</text></view>
+				</view>
+				<view class="ShouQi">
+					<image src="cloud://yuexia.7975-yuexia-1302601811/收起.png" class="ShouQiImage" bindtap="GuanZhuShouQi2" style="{{ShouQi3}}"></image>
+					<text style="font-size:27rpx;text-arign:center;">{{ShouQiName2}}</text>
+				</view>
+			</view>
+
+
+			<!-- 商业区展开 -->
+			<view class="GuanZhuZhanKai" style="{{CtrlList2_2}}">
+				<view class="GuanZhuZhanKaiList" wx:for="{{ShengHuoQu}}">
+					<view>
+						<image src="{{item.image}}" class="imageUin"></image>
+					</view>
+					<view class="GuanZhuZhanKaiFont">
+						<text class="GuanZhuName">{{item.name}}</text>
+						<text class="GuanZhuJianJie">{{item.JianJie}}</text>
+					</view>
+				</view>
+			</view>
+		</view>

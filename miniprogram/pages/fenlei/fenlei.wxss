@@ -1,0 +1,74 @@
+/* pages/fenlei/fenlei.wxss */
+/* 搜索框 */
+.souInputStyle {
+  margin:10rpx auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 420rpx;
+  height: 60rpx;
+  border: 5rpx #000 solid;
+  border-radius: 20px;
+}
+.btnImgGps {
+  width: 30rpx;
+  height: 30rpx;
+}
+
+
+
+/* 关注 */
+.GuanZhu{
+  width:100%;
+  margin-top: 20rpx;
+}
+.GuanZhuList{
+  display: flex;
+}
+.imageUin{
+  width:30px;
+  height:30px;
+  margin:0 auto;
+}
+.GuanZhuListForm{
+  display: flex;
+  margin-left: 20rpx;
+  justify-content: center;
+}
+.GuanZhuName{
+  font-size: 25rpx;
+}
+.imageLs{
+  display: flex;
+  justify-content: center;
+}
+.ShouQi{
+  position: fixed;
+  right:20rpx;
+  display: flex;
+  flex-direction: column;
+}
+.ShouQiImage{
+  width:25px;
+  height:25px;
+  margin:0 auto;
+}
+.GuanZhuZhanKai{
+  display: flex;
+  width:80%;
+  flex-direction: column;
+  margin:0 auto;
+}
+.GuanZhuZhanKaiList{
+  display: flex;
+  padding-bottom: 20rpx;
+}
+.GuanZhuZhanKaiFont{
+  display: flex;
+  flex-direction: column;
+  margin-top: 12rpx;
+  margin-left: 12rpx;
+}
+.GuanZhuJianJie{
+  font-size: 20rpx;
+}

@@ -1,0 +1,10 @@
+<view class="shuruDiv">
+	<view class="shuru">
+		<textarea bindinput="textInputValue" value="{{fontValue}}" class="textareaStyle" placeholder="记录美好生活..." placeholder-style="font-size:25rpx" maxlength="-1"></textarea>
+	</view>
+</view>
+<button  bindtap="upImage">上传图片</button>
+<button  bindtap="upImageFile">完成</button>
+<block style="width:25%;height:200rpx" wx:for="current" wx:key="index=0">
+<image  style="width:25%;height:200rpx" src="{{imgs[index]}}" mode="aspectFill"><image class="guanbiiocn" src="{{guanbiiocn}}"></image></image>
+</block>

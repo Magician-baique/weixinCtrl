@@ -1,0 +1,39 @@
+<!--pages/luntan/luntan.wxml-->
+<view class="fiedpostion">
+	<view class="bianjiBtn">
+		<image bindtap="bianXie" src="{{BianxieImage}}"></image>
+		<text style="font-size:20rpx;color:#fff;margin:0 auto">发表</text>
+	</view>
+</view>
+<!-- <view class="userinfo">
+	<button plain="true" size="mini" style="font-size:12px" wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 登录 </button>
+	<block wx:else>
+		<image bindtap="bindViewTap" class="userinfo-avatar" data-imgsrc="{{userInfo.avatarUrl}}" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+		获取用户昵称
+		<text class="tcfont">{{userInfo.nickName}}</text>
+	</block>
+</view> -->
+<view class="updateLunTanTxt">
+	<block wx:for="{{updateLunTanTxt}}" wx:key="subItem"  wx:for-index="index">
+		<view style="width:100%;display:flex;justify-content: center;">
+			<image bindtap="bindViewTap" class="userinfoImage" data-imgsrc="{{userInfo.avatarUrl}}" src="{{item.userImgeUrl}}" mode="cover"></image>
+		</view>
+		<view style="width:100%;display:flex;justify-content: center;">
+			<text style="font-size:25rpx">{{item.userName}}</text>
+		</view>
+		<view style="width:100%;display:flex;justify-content: center;">
+			<text style="font-size:20rpx">{{item.data}}</text>
+		</view>
+		<text class="updateLunTanTxt2">{{item.texts}}</text>
+		<block wx:for="{{item.value}}" wx:key="child" wx:for-item="subItem">
+			<image class="updateLunTanImage2" src="{{subItem}}" mode="aspectFill"></image>
+		</block>
+		<view class="infoView">
+			<image bindtap="infoImageLike" src="{{infoLike1[index]}}" class="infoImage" id="infoImage{{index}}" data-id="{{index}}" catchtap="cloas"></image>
+			<image bindtap="infoImageMsg" src="{{infoMessage}}" class="infoImage"></image>
+			<image bindtap="infoImageGd" src="{{infoGd}}" class="infoImage"></image>
+		</view>
+	</block>
+</view>
+<!-- <text>{{inputvalue}}</text>
+<text>{{inputid}}</text> -->
